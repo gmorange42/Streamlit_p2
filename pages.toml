@@ -1,0 +1,21 @@
+# Page d'accueil (fichier racine)
+["projet2.py"]
+title = "Accueil"
+icon = "🏠"
+
+# Pages dans le dossier 'pages/'
+[pages."page1.py"]
+title = "Recommandations"
+icon = "🎯"
+
+[pages."page2.py"]
+title = "Film par film"
+icon = "🎬"
+
+[pages."page3.py"]
+title = "La Creuse au cinéma"
+icon = "🌄"
+
+[pages."page4.py"]
+title = "Notre fonds cinématographique"
+icon = "📚"

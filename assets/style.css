@@ -1,0 +1,63 @@
+
+/* apporter du style a mes boutons streamlit, ici 
+ça applique sur les balises button ,
+ ayant l'attribut data-testid egale à stBaseButton-secondary  */
+button[data-testid="stBaseButton-secondary"] {
+    text-decoration: underline;
+    color: white; 
+    background-color: #012546;
+    padding: 10px 20px;
+}
+
+button[data-testid="stBaseButton-secondary"] p{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+button[data-testid="stBaseButton-primary"] {
+    text-decoration: underline;
+    color:  #012546; 
+    background-color: white;
+    padding: 10px 20px;
+}
+button[data-testid="stBaseButton-primary"] p{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/*  centrer le texte des balises h1 et h3  */
+
+h1, h3 {
+  text-align: center;
+}
+
+
+#pour la page contacts
+/* Style inputs with type="text", type="email"and textareas */
+input[type=text], input[type=text], input[type=email], textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ffffff; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0) /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+button[type=submit] {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+button[type=submit]:hover {
+  background-color: #ffffff;
+}
