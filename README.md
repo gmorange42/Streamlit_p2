@@ -1,3 +1,3 @@
-#Please install in your python environment all required dependencies contain in requirements.txt
+#please do : ./set_env.sh
 
-#Do : streamlit run Accueil.py
+#and after this do : ./launch_app.sh
