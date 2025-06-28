@@ -232,7 +232,7 @@ df_movies = pd.read_csv('data/movies.csv.zip')
 df_people= pd.read_csv('data/people.csv.zip')
 df_inter= pd.read_csv('data/inter.csv.zip')
 
-css_path = pathlib.Path("assets\style.css")
+css_path = pathlib.Path("assets/style.css")
 load_css(css_path)
 st.image("assets/images/bandeau_Eden_+.png") 
 
